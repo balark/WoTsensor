@@ -1,0 +1,15 @@
+{
+  "pi": {
+    "name": "WoT Pi",
+    "description": "A simple WoT-connected Raspberry PI for the WoT book.",
+    "port": 8484,
+    "sensors": {
+        "ir": {
+        "name": "Infrared Sensor",
+        "description": "A infrared sensor. When 'true' infrared source is present.",
+        "value": true,
+        "gpio": 17
+        }
+    }
+  }
+}
